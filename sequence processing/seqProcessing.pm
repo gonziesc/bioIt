@@ -28,7 +28,7 @@ my $inseq = Bio::SeqIO->new(-file   => "$file",
                             -format => $format, );
 
 my %outfiles = ( 'fasta' => Bio::SeqIO->new(
-                                          -file   => '>./sequence processing/out.fasta',
+                                          -file   => '>./sequence processing/out.fas',
                                           -format => 'fasta',
                                           ),
                );
