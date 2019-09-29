@@ -27,9 +27,15 @@ my $format = "genbank";
 my $inseq = Bio::SeqIO->new(-file   => "$file",
                             -format => $format, );
 
+my %outfiles = ( 'fasta' => Bio::SeqIO->new(
+                                          -file   => '>./sequence processing/out.fasta',
+                                          -format => 'fasta',
+                                          ),
+               );
+
 # Now that we have a seq stream,
 # we need to tell it to give us a $seq.
 #  We do this using the 'next_seq' method of SeqIO.
 while (my $seq = $inseq->next_seq) {
-   print $seq->accession_number,"\n";
+   $outfiles{'fasta'}->write_seq($seq);
 }
