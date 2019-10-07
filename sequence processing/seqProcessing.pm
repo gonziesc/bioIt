@@ -8,7 +8,7 @@ use Bio::SeqIO;
 # Bring in the file and format, or die with a nice
 # usage statement if one or both arguments are missing.
 my $usage = "getaccs.pl file format "; 
-my $file = "./sequence processing/sequence.genbank"; 
+my $file = "./sequence processing/sequence.gb"; 
 my $format = "genbank";
 
 # Now create a new SeqIO object to bring in the input
@@ -37,5 +37,6 @@ my %outfiles = ( 'fasta' => Bio::SeqIO->new(
 # we need to tell it to give us a $seq.
 #  We do this using the 'next_seq' method of SeqIO.
 while (my $seq = $inseq->next_seq) {
-   $outfiles{'fasta'}->write_seq($seq);
+   @out = Bio::SeqUtils->translate_6frames($seq);
+   $outfiles{'fasta'}->write_seq(@out);
 }
