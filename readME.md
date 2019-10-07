@@ -14,7 +14,7 @@
 - Select one or multiple sequences in a FASTA file. We chose our first exercise [output](https://github.com/gonziesc/bioIt/blob/master/sequence%20processing/out.fas)
 - Install blast with `cpanm Bio::Tools::Run::StandAloneBlastPlus`
 - Run in terminal `perl ./blast/Ex2.pm`
-- check output in [out](https://github.com/gonziesc/bioIt/blob/master/blast/out)
+- check output in [blast.out](https://github.com/gonziesc/bioIt/blob/master/blast/blast.out)
 
 - To run locally, download [swissprot](ftp://ftp.ncbi.nlm.nih.gov/blast/db/FASTA/swissprot.gz)
 - Run `gzip -d swissprot.gz` to unzip file
