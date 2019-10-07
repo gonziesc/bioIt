@@ -16,7 +16,7 @@
 - Run in terminal `perl ./blast/Ex2.pm`
 - check output in [blast.out](https://github.com/gonziesc/bioIt/blob/master/blast/blast.out)
 
-- To run locally, download [swissprot](ftp://ftp.ncbi.nlm.nih.gov/blast/db/FASTA/swissprot.gz)
+- To run locally, download swissprot from ftp://ftp.ncbi.nlm.nih.gov/blast/db/FASTA/swissprot.gz
 - Run `gzip -d swissprot.gz` to unzip file
 - Change swissprot db path in [Ext_2local.pm](https://github.com/gonziesc/bioIt/blob/master/blast/Ex2_local.pm) 
 - Run in terminal `perl ./blast/Ex2_local.pm`
