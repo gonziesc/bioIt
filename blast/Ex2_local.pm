@@ -1,5 +1,5 @@
 use Bio::Tools::Run::StandAloneBlastPlus;
-my $file = "./sequence processing/out.fas"; 
+my $file = "./blast/input.fas"; 
 
 $fac = Bio::Tools::Run::StandAloneBlastPlus->new(
  -db_name => 'customdb',
