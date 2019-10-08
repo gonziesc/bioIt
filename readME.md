@@ -10,7 +10,7 @@
 - Check output in [out.fas](https://github.com/gonziesc/bioIt/blob/master/sequence%20processing/out.fas)
 - Check your gen in fasta file. Our is [this one](https://www.ncbi.nlm.nih.gov/nuccore/XM_006715079.4?report=fasta)
 - Enter [ORF FINDER](https://www.ncbi.nlm.nih.gov/orffinder/)
-- Enter your gen in fasta type and see the result. Select from your out.fas](https://github.com/gonziesc/bioIt/blob/master/sequence%20processing/out.fas) the correct one between the six alternatives.
+- Enter your gen in fasta type and see the result. Select from your [out.fas](https://github.com/gonziesc/bioIt/blob/master/sequence%20processing/out.fas) the correct one between the six alternatives.
 - In out case, the correct one was NM_002122-2F
 
 # 2. BLAST
