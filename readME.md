@@ -24,3 +24,10 @@
 - Run `gzip -d swissprot.gz` to unzip file
 - Change swissprot db path in [Ext_2local.pm](https://github.com/gonziesc/bioIt/blob/master/blast/Ex2_local.pm) 
 - Run in terminal `perl ./blast/Ex2_local.pm`
+
+#3. Multisequence processing
+
+- Select 3 sequences from your [blast result](https://github.com/gonziesc/bioIt/blob/master/blast/blast.out). They should be from different species.
+- Enter [uniprot](https://www.uniprot.org/align)
+- Find the uniprot code for the proteins sequences in NCBI
+- Paste the uniprot codes and click on run
