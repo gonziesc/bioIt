@@ -31,3 +31,12 @@
 - Enter [uniprot](https://www.uniprot.org/align)
 - Find the uniprot code for the proteins sequences in NCBI
 - Paste the uniprot codes and click on run
+
+# 4. Blast output
+
+- Choose a blast output. We used the one from [exercise 2](https://github.com/gonziesc/bioIt/blob/master/blast/blast.out)
+- Install GenBank with `cpanm Bio::DB::GenBank`
+- Select the pattern you'd like to look for. We used `Zinc`.
+- Run in terminal `perl ./blast output/Ex4.pm`
+- Check the `.fas` files in the blast output [folder](https://github.com/gonziesc/bioIt/blob/master/blast%20output)
+
