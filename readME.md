@@ -38,5 +38,5 @@
 - Install GenBank with `cpanm Bio::DB::GenBank`
 - Select the pattern you'd like to look for. We used `Zinc`.
 - Run in terminal `perl ./blast output/Ex4.pm`
-- Check the `.fas` files in the blast output [folder](https://github.com/gonziesc/bioIt/blob/master/blast%20output)
+- Check the `.fas` files in the blast output [folder](https://github.com/gonziesc/bioIt/tree/master/blast%20ouput)
 
