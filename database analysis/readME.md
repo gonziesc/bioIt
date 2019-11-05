@@ -12,4 +12,4 @@ Fuentes
 
 En ensembl se encontraron los siguientes resultados:
 
-  <img src="https://github.com/gonziesc/bioIt/tree/master/database%20%analysis/b-ensembl.png">
+  <img src="https://github.com/gonziesc/bioIt/blob/master/database%20analysis/b-ensembl.png">
