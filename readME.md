@@ -40,3 +40,11 @@
 - Run in terminal `perl ./blast output/Ex4.pm`
 - Check the `.fas` files in the blast output [folder](https://github.com/gonziesc/bioIt/tree/master/blast%20ouput)
 
+# 5. Emboss
+
+- Install Emboss. In MacOS, run `brew install brewsci/bio/emboss`
+- Select a fasta file. We chose the[(exercise one fasta output](https://www.ncbi.nlm.nih.gov/nuccore/NM_002122.3?report=fasta)
+- Run in terminal `transeq out.fas -frame 6` in emboss folder. Check results in [out.pep](https://github.com/gonziesc/bioIt/tree/master/emboss/out.pep)
+- Download `prosite.dat` and `prosite.doc` from emboss. We downloaded it from this [link](https://prosite.expasy.org/prosuser.html)
+- In the Download folder, run `prosextract`
+- Go back to emboss folder and run `patmatmotifs out.fas`. Check results in [out.patmatmotifs](https://github.com/gonziesc/bioIt/tree/master/emboss/out.patmatmotifs)
