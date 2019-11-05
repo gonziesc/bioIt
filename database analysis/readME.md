@@ -12,4 +12,15 @@ Fuentes
 
 En ensembl se encontraron los siguientes resultados:
 
-  <img src="https://github.com/gonziesc/bioIt/blob/master/database%20analysis/b-ensembl.png">
+<img src="https://github.com/gonziesc/bioIt/blob/master/database%20analysis/b-ensembl.png">
+
+contando 54 genes homólogos de otros organismos. En cambio, en HomoloGene:
+
+<img src="https://github.com/gonziesc/bioIt/blob/master/database%20analysis/b-homologene.png">
+
+no se encontró el total de genes, aunque se muestran los 6 principales. Se ve una clara diferencia entre ambas bases de datos, dado que ensembl pudo mostrar la cantidad total del árbol.
+
+El grupo taxonómico principal que se ve son los mamíferos, en particular los primates.
+
+# C
+
