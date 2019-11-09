@@ -16,9 +16,11 @@ En ensembl se encontraron los siguientes resultados:
 
 contando 54 genes homólogos de otros organismos. En cambio, en HomoloGene:
 
+<img src="https://github.com/gonziesc/bioIt/blob/master/database%20analysis/b-homologene-total.png">
+
 <img src="https://github.com/gonziesc/bioIt/blob/master/database%20analysis/b-homologene.png">
 
-no se encontró el total de genes, aunque se muestran los 6 principales. Se ve una clara diferencia entre ambas bases de datos, dado que ensembl pudo mostrar la cantidad total del árbol.
+se encontraron 65 genes homólohos y se muestran los 6 principales. Se ve una clara diferencia entre ambas bases de datos, homologene fue capaz de encontrar mayor cantidad de genes.
 
 El grupo taxonómico principal que se ve son los mamíferos, en particular los primates.
 
@@ -53,3 +55,29 @@ En ncbi, podemos ver que tiene 37 interacciones:
 <img src="https://github.com/gonziesc/bioIt/blob/master/database%20analysis/d-ncbi.png">
 
 Ambas bases de datos referencian información similar. Como en el caso del ST7, se ve que el gen suele interactuar con otros genes que combaten diferentes enfermedades.
+
+# E
+
+Forma parte de la membrana plasmática de las células. Tiene como función manejar las proteínas sintetizadas por el retículo endoplasmático para transformarlas y exportarlas al resto del organismo.
+
+La proteína realiza el procesamiento de antígenos y receptor de señales de células T.
+Además, dentro de la célula tiene la función de combinarse con las proteínas MHC clase 2.
+
+# F
+
+En Kegg podemos ver que tiene 24 pathaways:
+
+<img src="https://github.com/gonziesc/bioIt/blob/master/database%20analysis/f.png">
+
+La mayoría de ellos tienen que ver con el sistema inmunológico y con enfermedades relacionadas, como el Lupus.
+
+# G
+
+Según SNP, la variante existente es la rs1048052, la cuál tiene 1 solo nucleótido.
+
+<img src="https://github.com/gonziesc/bioIt/blob/master/database%20analysis/g-1.png">
+
+No tiene especificación clínica y suele ser frecuente en los judíos Ashkenazim
+
+
+<img src="https://github.com/gonziesc/bioIt/blob/master/database%20analysis/g-2.png">
