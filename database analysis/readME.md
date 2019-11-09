@@ -24,3 +24,20 @@ El grupo taxonómico principal que se ve son los mamíferos, en particular los p
 
 # C
 
+En ensembl, se pudieron encontrar 7 transcriptos: 
+
+- HLA-DQA1-201: 8 variantes de splicing
+- HLA-DQA1-202: 8 variantes de splicing
+- HLA-DQA1-203: 8 variantes de splicing
+- HLA-DQA1-207: 8 variantes de splicing
+- HLA-DQA1-204: 1 variante
+- HLA-DQA1-205: no se expresa	 	
+- HLA-DQA1-206: 1 variante
+
+<img src="https://github.com/gonziesc/bioIt/blob/master/database%20analysis/c-ensembl.png">
+
+Por otro lado, en NCBI se encontraron 15 transcriptos: 
+
+<img src="https://github.com/gonziesc/bioIt/blob/master/database%20analysis/c-ncbi.png">
+
+Consideramos la DB de Ensembl más precisa ya que, si bien tenia menos transcriptos que la de NCBI, estaba más completa la información.
