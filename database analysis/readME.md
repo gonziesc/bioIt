@@ -41,3 +41,15 @@ Por otro lado, en NCBI se encontraron 15 transcriptos:
 <img src="https://github.com/gonziesc/bioIt/blob/master/database%20analysis/c-ncbi.png">
 
 Consideramos la DB de Ensembl más precisa ya que, si bien tenia menos transcriptos que la de NCBI, estaba más completa la información.
+
+# D
+
+En uniprot, podemos ver que tiene 34 interacciones: 
+
+<img src="https://github.com/gonziesc/bioIt/blob/master/database%20analysis/d-uniprot.png">
+
+En ncbi, podemos ver que tiene 37 interacciones: 
+
+<img src="https://github.com/gonziesc/bioIt/blob/master/database%20analysis/d-ncbi.png">
+
+Ambas bases de datos referencian información similar. Como en el caso del ST7, se ve que el gen suele interactuar con otros genes que combaten diferentes enfermedades.
